@@ -2,8 +2,12 @@ body {
   background-color: #FFF;
 }
 
-h1  {
-  color: #000;
+h1 {
+  color: #F00;
+}
+
+table {
+  background-color: antiquewhite;
 }
 
 div#test01 {
@@ -11,5 +15,25 @@ div#test01 {
 }
 
 .important {
-  color: #a00;
+  color: #F00;
 }
+
+td {
+  text-align: center;
+}
+
+td,th {
+ border: solid thin;
+}
+
+.ol {
+  background-color: #FFF;
+  color: #00a;
+}
+
+.last3 {
+ font-weight: bold;
+ color: #F00;
+}
+
+
