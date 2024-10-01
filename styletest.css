@@ -7,7 +7,7 @@ h1 {
 }
 
 table {
-  background-color: antiquewhite;
+  background-color: #FFF;
 }
 
 div#test01 {
@@ -23,17 +23,27 @@ td {
 }
 
 td,th {
- border: solid thin;
-}
-
-.ol {
-  background-color: #FFF;
-  color: #00a;
+ border: 1px solid #000;
 }
 
 .last3 {
  font-weight: bold;
- color: #F00;
+ text-decoration: underline;
 }
 
+.el {
+  background-color: aqua;
+}
 
+.ol {
+  background-color: antiquewhite;
+}
+
+#members {
+  border-collapse: collapse;
+}
+
+.name {
+  color: #00a;
+  text-align: center;
+}
